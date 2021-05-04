@@ -386,6 +386,7 @@ img {
   bottom: 0;
   width: 370px;
   height: 70px;
+  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
@@ -394,6 +395,10 @@ img {
 
   color: var(--white-accent-color);
   background-color: rgba(47, 48, 58, 0.8);
+}
+
+.works-text {
+  margin: 0;
 }
 
 /* Team */
@@ -462,8 +467,6 @@ img {
 
   width: 44px;
   height: 44px;
-
-  transition: background-color var(--animation);
 }
 
 .socials-icons-link:hover,
@@ -476,6 +479,8 @@ img {
   width: 20px;
   height: 20px;
   fill: rgba(175, 177, 184, 1);
+
+  transition: background-color var(--animation);
 }
 
 .socials-icons-link:hover .socials-icons-svg,
@@ -556,7 +561,7 @@ button {
   cursor: pointer;
   color: #afb1b8;
 
-  transition: color var(--animation);
+  transition: color var(--animation), border var(--animation);
 }
 
 .company-img:hover,
@@ -618,7 +623,7 @@ footer {
 
 .footer-socials-top {
   margin: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 
   font-weight: bold;
   font-size: 14px;
